@@ -8,7 +8,7 @@ const port = 7777;
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://socialmedia07.netlify.app/"],
+    origin: ["http://localhost:5173", "https://socialmedia07.netlify.app"],
     credentials: true,
   })
 );
