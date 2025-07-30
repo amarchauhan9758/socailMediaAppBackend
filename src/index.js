@@ -8,7 +8,7 @@ const port = 7777;
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // frontend URL
+    origin: ["http://localhost:5173", "https://your-frontend.netlify.app"],
     credentials: true,
   })
 );
